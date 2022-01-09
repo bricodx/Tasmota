@@ -198,8 +198,8 @@
 #define D_WEIGHT "Poids"
 #define D_WARMLIGHT "Chaud"
 #define D_WEB_SERVER "Serveur web"
-#define D_SOC "State of Charge"
-#define D_SOH "State of Health"
+#define D_SOC "État de charge"
+#define D_SOH "État de santé"
 
 // tasmota.ino
 #define D_WARNING_MINIMAL_VERSION "ATTENTION Cette version ne supporte pas les réglages persistants"
@@ -293,19 +293,19 @@
 #define D_WEP "WEP"
 #define D_WPA_PSK "WPA PSK"
 #define D_WPA2_PSK "WPA2 PSK"
-#define D_AP1_SSID "WiFi Network"
-#define D_AP1_SSID_HELP "Type or Select your WiFi Network"
-#define D_AP2_SSID "WiFi Network 2"
-#define D_AP2_SSID_HELP "Type your Alternative WiFi Network"
+#define D_AP1_SSID "Réseau WiFi"
+#define D_AP1_SSID_HELP "Saisir ou sélectionner votre réseau WiFi"
+#define D_AP2_SSID "Réseau WiFi 2"
+#define D_AP2_SSID_HELP "Saisir pour réseau WiFi alternatif"
 #define D_AP_PASSWORD "Mot de passe"
-#define D_AP_PASSWORD_HELP "Enter your WiFi Password"
-#define D_SELECT_YOUR_WIFI_NETWORK "Select your WiFi Network"
-#define D_SHOW_MORE_WIFI_NETWORKS "Scan for all WiFi Networks"
-#define D_SHOW_MORE_OPTIONS "More Options"
-#define D_CHECK_CREDENTIALS "Please, check your credentials"
-#define D_SUCCESSFUL_WIFI_CONNECTION "Successful WiFi Connection"
-#define D_NOW_YOU_CAN_CLOSE_THIS_WINDOW "Now you can close this window"
-#define D_REDIRECTING_TO_NEW_IP "Redirecting to new device's IP address"
+#define D_AP_PASSWORD_HELP "Entrer votre mot de passe WiFi"
+#define D_SELECT_YOUR_WIFI_NETWORK "Sélectionner votre réseau WiFi"
+#define D_SHOW_MORE_WIFI_NETWORKS "Scanner l'ensemble des réseaux WiFi"
+#define D_SHOW_MORE_OPTIONS "Plus d'Options"
+#define D_CHECK_CREDENTIALS "SVP, vérifiez vos informations d'identification"
+#define D_SUCCESSFUL_WIFI_CONNECTION "Connexion wifi réussie"
+#define D_NOW_YOU_CAN_CLOSE_THIS_WINDOW "Vous pouvez maintenant fermer la fenêtre"
+#define D_REDIRECTING_TO_NEW_IP "Redirection vers l'adresse IP du nouvel appareil"
 
 #define D_MQTT_PARAMETERS "Paramètres MQTT"
 #define D_CLIENT "Client"
@@ -603,8 +603,8 @@
 #define D_SpL1L2L3 "Tension (Ph1+Ph2+Ph3)/3"
 
 // xsns_88_tfminiplus.ino
-#define D_SIGNALSTRENGTH "Signal Strength"
-#define D_CHIPTEMPERATURE "Chip Temperature"
+#define D_SIGNALSTRENGTH "Force du signal"
+#define D_CHIPTEMPERATURE "Température de la puce"
 
 // tasmota_template.h - keep them as short as possible to be able to fit them in GUI drop down box
 #define D_SENSOR_NONE          "Aucun"
@@ -925,7 +925,7 @@
 #define D_SOLAX_MODE_1    "En test"
 #define D_SOLAX_MODE_2    "En marche"
 #define D_SOLAX_MODE_3    "Défault"
-#define D_SOLAX_MODE_4    "Permanent Failure"  // to be translated
+#define D_SOLAX_MODE_4    "Erreur pPermanente"  // to be translated
 #define D_SOLAX_MODE_5    "Software Update"  // to be translated
 #define D_SOLAX_MODE_6    "Selftest"  // to be translated
 #define D_SOLAX_ERROR_0   "Aucun code d'erreur"
@@ -946,7 +946,7 @@
 #define D_UPL_DONE             "Terminé"
 #define D_SCRIPT_CHARS_LEFT    "car. restant"
 #define D_SCRIPT_CHARS_NO_MORE "plus de car."
-#define D_SCRIPT_DOWNLOAD      "Download"
+#define D_SCRIPT_DOWNLOAD      "Téléchargement"
 #define D_SCRIPT_ENABLE        "script actif"
 #define D_SCRIPT_UPLOAD        "Envoi"
 #define D_SCRIPT_UPLOAD_FILES  "Envoi de fichiers"
